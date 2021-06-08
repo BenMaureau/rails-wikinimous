@@ -1,0 +1,41 @@
+@import "bootstrap/scss/bootstrap";
+
+.article {
+  border: solid 1px lightgrey;
+  padding: 3px;
+  box-shadow: 0px 2px 10px lightgrey;
+  padding: 10px 20px;
+  margin: 20px auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: lightgrey;
+  padding: 5px 20px;
+  border-bottom: solid 1px lightgrey;
+  color: rgb(100,100,100);
+}
+
+#new_article, #edit-article {
+  text-align: center;
+  width: 500px;
+  margin: 10px auto;
+}
+
+h1 {
+  color: rgb(100,100,100)
+}
+.btn-primary {
+  margin: 10px;
+}
+
+.show-article {
+  border: solid 1px lightgrey;
+  padding: 3px;
+  box-shadow: 0px 2px 10px lightgrey;
+  padding: 10px 20px;
+  margin: 50px 150px;
+  width: 500px;
+}
